@@ -1,0 +1,33 @@
+.trail-image {
+    width: 45%; /* Adjust the width as needed */
+    margin: 5px;
+}
+
+/* Create a container to hold the images */
+.image-container {
+    display: flex;
+    justify-content: space-between
+
+    .slideshow-container {
+        max-width: 800px;
+        position: relative;
+        margin: auto;
+    }
+
+    .mySlides {
+        display: none;
+    }
+
+    .slideshow-img {
+        width: 100%;
+    }
+
+    /* Add styling for the slide captions */
+    .slide-caption {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;

@@ -1,0 +1,77 @@
+snippets.txt
+
+body {
+  font-family: sans-serif; /* Change to your desired sans-serif font */
+  font-size: 16px; /* Change to your desired font size */
+  margin-left: 1in;
+  margin-right: 1in;
+}
+
+
+
+
+
+   <!-- SLIDE SHOW -->
+<div class="slideshow-container">
+        <div class="slide fade">
+            <img src="image1.jpg" alt="Image 1">
+        </div>
+        <div class="slide fade">
+            <img src="image2.jpg" alt="Image 2">
+        </div>
+        <div class="slide fade">
+            <img src="image3.jpg" alt="Image 3">
+        </div>
+        <div class="slide fade">
+            <img src="image4.jpg" alt="Image 4">
+        </div>
+    </div>
+    <div class="navigation">
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+    </div>
+    <script src="script.js"></script>
+
+
+
+ALIGNED IMAGES 3
+ <!-- Image Gallery --> 
+<div class="gallery" style="text-align: center;">
+  <!-- Image 1 -->
+  <div style="width: 30%; display: inline-block; box-sizing: border-box;">
+    <img class="gallery-img" src="assets/img/bodyofwater.jpeg" alt="Camping Image 1" style="width: 100%; height: 200px;">
+    <p class="caption">biking in banff</p>
+  </div>
+
+  <!-- Image 2 -->
+  <div style="width: 30%; display: inline-block; box-sizing: border-box;">
+    <img class="gallery-img" src="assets/img/banffpeyto.jpg" alt="Camping Image 2" style="width: 100%; height: 200px;">
+    <p class="caption">Caption for Image 2</p>
+  </div>
+
+  <!-- Image 3 -->
+  <div style="width: 30%; display: inline-block; box-sizing: border-box;">
+    <img class="gallery-img" src="assets/img/banffg.jpeg" alt="Camping Image 3" style="width: 100%; height: 200px;">
+    <p class="caption">Caption for Image 3</p>
+  </div>
+</div>
+  
+
+  STYLED MENU LINKS:
+<div style="text-align: center; font-size: 24px; margin-top: 20px;">
+  <a href="banff_national_park.html" class="park-link" style="text-decoration: none; color: #333;">
+    <span style="border: 2px solid #333; padding: 5px 10px; border-radius: 5px; transition: background-color 0.3s, color 0.3s;">Banff National Park</span>
+  </a>
+  <span style="color: #333;">|</span>
+  <a href="canmore_national_park.html" class="park-link" style="text-decoration: none; color: #333;">
+    <span style="border: 2px solid #333; padding: 5px 10px; border-radius: 5px; transition: background-color 0.3s, color 0.3s;">Canmore National Park</span>
+  </a>
+  <span style="color: #333;">|</span>
+  <a href="jasper_national_park.html" class="park-link" style="text-decoration: none; color: #333;">
+    <span style="border: 2px solid #333; padding: 5px 10px; border-radius: 5px; transition: background-color 0.3s, color 0.3s;">Jasper National Park</span>
+  </a>
+  <span style="color: #333;">|</span>
+  <a href="yoho_national_park.html" class="park-link" style="text-decoration: none; color: #333;">
+    <span style="border: 2px solid #333; padding: 5px 10px; border-radius: 5px; transition: background-color 0.3s, color 0.3s;">Yoho National Park</span>
+  </a>
+</div>

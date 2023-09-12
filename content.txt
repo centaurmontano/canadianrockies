@@ -1,0 +1,63 @@
+Requirements:
+
+-plan a website containing at least four pages with a common layout and navigation system.
+-Your initial site must include a script element that links to the modernizr.custom.05819.js file in each of your HTML document in your site
+-Ensure that all your pages pass validation
+
+-add a mathematical calculation
+-Plan and add a feature to one of your four pages in your project that uses at least one function to perform a mathematical calculation based on user input.
+-webpage must  incorporate content or functionality created by a series of if, if/else and else if statements or a switch statement. Your page (or pages) must also include at least one event listener. Make sure that all functionality is backwards compatible. Test your pages in more than one browser to ensure that it works as expected.
+-add exception handling to the code for one of the forms in your personal web site
+
+-CALCULATE TIME ELAPSED: add a page to your site that will calculate the time elapsed since a date was entered by a user. The page should include a form that allows users to enter a day, month, and year (in relation to your site’s content). The page should then calculate and display the elapsed time in years, months and days. Your program must include code to convert day values in excess of 31 into months and months in excess of 12 into years.
+
+-FEEDBACK FORM: Users should be able to choose one or more options from a list of at least five options.
+
+
+-AJAX Service
+
+Requirements:
+-Analysis and Design Part 1 with complete documentation
+-Addition of mathematical function to one page (MAP DISTANCE BETWEEN LOCATIONS)
+-Incorporation of the necessary if, if/else, else if and switch statements
+-Adding of the appropriate exception handling
+-Input validation and error handling using controls and code (input validation on feedback form)
+-Using the Date and Math Class to calculate time elapsed:
+*Utilize JavaScript's Date and Math classes for tasks such as displaying post publication dates, calculating time elapsed since a post was published, or performing date-related calculations.
+
+-Addition of a feedback form
+-Prevention of security issues (Enhanced validation using regular expressions to limit allowable characters in order to exclude characters used in creating JavaScript code
+*Implement enhanced validation using regular expressions to limit allowable characters in user inputs to prevent potential security vulnerabilities like SQL injection or Cross-Site Scripting (XSS).
+-Show users their current location on a map (MAPBOX)
+-Addition of an API request (LIVE WEATHER DATA)
+-Error free and bug free application ( Application properly debugged)
+
+4 pages
+Destinations
+Tips and Tricks
+About
+Contact
+
+****************************
+slide Show
+
+
+<div class="slideshow-container">
+        <div class="slide fade">
+            <img src="image1.jpg" alt="Image 1">
+        </div>
+        <div class="slide fade">
+            <img src="image2.jpg" alt="Image 2">
+        </div>
+        <div class="slide fade">
+            <img src="image3.jpg" alt="Image 3">
+        </div>
+        <div class="slide fade">
+            <img src="image4.jpg" alt="Image 4">
+        </div>
+    </div>
+    <div class="navigation">
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+    </div>
+    <script src="script.js"></script>

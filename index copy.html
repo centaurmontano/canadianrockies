@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Chuck's Canadian Rockies Travel Guide - Index</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+    <meta content="Canadian Rockies Travel Guide" name="description" />
+    <meta content="travel" name="keywords" />
+
+<!-- Favicons -->
+<link href="assets/img/favicon.png" rel="icon">
+<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Inter:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+ <!-- Vendor CSS Files -->
+ <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+ <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+ <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+ <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+ <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+   <!-- Template Main CSS Files -->
+   <link href="assets/css/variables.css" rel="stylesheet">
+   <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body>
+ <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+        <a href="index.html" class="logo d-flex align-items-center">
+            <!-- Uncomment the line below if you also wish to use an image logo -->
+            <!-- <img src="assets/img/logo.png" alt=""> -->
+
+  
+   
+</head>
+<body>
+    <h1>Chuck's Canadian Rockies Travel Guide <span class="flag"></span></h1>
+        </a>
+
+        <nav id="navbar" class="navbar">
+
+          <ul>
+            <li><a href="index.html"> Home </a></li>
+            <li class="dropdown"><a href="category.html"><span>Destinations</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+              <ul>
+                <li><a href="banff.html" style="font-size: 18px;">Banff National Park</a></li>
+        <li><a href="canmore.html" style="font-size: 18px;">Canmore, Alberta</a></li>
+        <li><a href="jasper.html" style="font-size: 18px;">Jasper National Park</a></li>
+        <li><a href="yoho.html" style="font-size: 18px;">Yoho National Park</a></li>
+        <li><a href="#" style="font-size: 18px;">Waterton National Park</a></li>
+              <ul>
+              </ul>
+              </ul>
+          
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav><!-- .navbar -->
+
+        <div class="position-relative">
+            <a href="https://github.com/centaurmontano" target="_blank" class="mx-2"><span class="bi-github"></span></a>
+            <a href="https://www.linkedin.com/in/charles-magno-0a6a36178/" target="_blank" class="mx-2"><span class="bi-linkedin"></span></a>
+            <a href="https://www.facebook.com/charles.magno/" target="blank" class="mx-2"><span class="bi-facebook"></span></a>
+            <a href="https://www.youtube.com/@charlesmagno28/videos" target="blank" class="mx-2"><span class="bi-youtube"></span></a>
+            <a href="#" class="mx-2 js-search-open"><span class="bi bi-search"></span></a>
+<i class="bi bi-list mobile-nav-toggle"></i>
+
+        </div>
+
+    </div>
+</header>
+
+          <!-- ======= Search Form ======= -->
+          <div class="search-form-wrap js-search-form-wrap">
+            <form action="search-result.html" class="search-form">
+              <span class="icon bi-search"></span>
+              <input type="text" placeholder="Search" class="form-control" />
+              <button class="btn js-search-close">
+                <span class="bi-x"></span>
+              </button>
+            </form>
+          </div>
+          <!-- End Search Form -->
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <main id="main">
+    
+                <!-- Welcome Message -->
+
+      <div class="welcome-section" style="text-align: center; font-size: 35px; margin-left: 1in; margin-right: 1in;">
+        <p>Welcome to my Rocky Mountain Adventures!</p>
+        <p style="font-size: 24px;">This is my personal blog, where I share a collection of guides and my firsthand experiences in the awe-inspiring Canadian Rockies. Canada is like a beautiful painting, and I'm here to continue exploring and documenting its wonders, a beauty too enchanting not to share with you and the world! </p>
+        <a href="about.html" target="_blank">-Tito Chuck</a></p>
+    </div>
+    
+    
+    <hr style="margin-left: 1in; margin-right: 1in;">
+      <!-- Weather Updates -->
+      <div class="weather-wrapper">
+        <h4 class="text-center">
+          Live Weather Update <span class="sun-icon">&#9728;</span>
+        </h4>
+        <div class="weather-info" style="font-size: 25px; color: #1b370e;">
+          <span id="jasper-weather"></span>
+          <span id="banff-weather"></span>
+          <span id="canmore-weather"></span>
+        </div>
+      </div>
+
+      <!--LIVE WEATHER-->
+<script>
+  // Replace 'your_api_key' with your actual OpenWeather API key
+  const apiKey = '43745cd15726442043fb503e465ed87a'; // Your OpenWeather API key
+
+  // Define the locations for which you want weather updates
+  const locations = ['Jasper', 'Banff', 'Canmore']; // Locations for weather updates
+
+  // Function to fetch and display weather data for a location
+  function getWeather(location) {
+    // Construct the API URL for the location
+    const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}&units=metric`;
+
+    // Fetch weather data from the API
+    fetch(apiUrl)
+      .then(response => response.json())
+      .then(data => {
+        // Get the DOM element for displaying weather
+        const weatherElement = document.getElementById(`${location.toLowerCase()}-weather`);
+        if (weatherElement) {
+          // Update the DOM element with weather information
+          weatherElement.textContent = `${location}: ${data.main.temp}°C, ${data.weather[0].description}`;
+        }
+      })
+      .catch(error => console.error('Error fetching weather data:', error));
+  }
+
+  // Function to update weather data for all specified locations
+  function updateWeather() {
+    locations.forEach(location => getWeather(location));
+  }
+
+  // Update weather data on page load
+  updateWeather();
+
+  // Update weather data every 10 minutes (adjust the interval as needed)
+  setInterval(updateWeather, 600000); // 600000 milliseconds = 10 minutes
+</script>
+</body>
+</html>
+
+
+               
+    </footer>
+    <a
+      href="#"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+   
+   
+    <style>
+        /* Style for the visitor counter */
+        .visitor-counter {
+            position: fixed;
+            bottom: 40px; /* Adjust the vertical position */
+            right: 40px; /* Adjust the horizontal position */
+            background-color: #faf6f6;
+            color: #2b2626;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: bold;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            z-index: 9999; /* Ensure it's above other content */
+        }
+    </style>
+</head>
+<body>
+    <!-- Your website content goes here -->
+
+    <!-- Visitor Counter Element -->
+    <div class="visitor-counter" id="visitor-counter">0</div>
+
+    <!-- Include JavaScript to update the visitor count -->
+    <script>
+        // Timer to update the visitor count
+        let visitorCount = 0;
+        setInterval(() => {
+            visitorCount++; // Increment the visitor count
+            document.getElementById('visitor-counter').textContent = visitorCount;
+        }, 10000); // Update every 10 seconds (Adjust as needed)
+    </script>
+</body>
+
+
+
+
+  <!-- ======= Footer ======= -->
+<footer id="footer" class="footer">
+  <div class="footer-legal">
+    <div class="container">
+      <div class="row justify-content-between">
+        <!-- Left side of the footer -->
+        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+          <div class="copyright">
+            <!-- Copyright information -->
+            © <strong><span>Chucks Canadian Rockies Travel Guide</span></strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            <!-- Credits and attribution -->
+            Original Photos, Content and Design by <a href="https://centaurmontano.github.io/CharlesMagno/" target="_blank">Charles M</a>
+            <hr />
+            <a href="https://copyrightalliance.org/faqs/what-is-fair-use/#:~:text=Fair%20use%20permits%20a%20party,teaching%2C%20scholarship%2C%20or%20research/" target="_blank">Fair Usage</a> is encouraged with proper attribution
+          </div>
+        </div>
+        <!-- Right side of the footer -->
+        <div class="col-md-6">
+          <div class="social-links mb-3 mb-lg-0 text-center text-md-end">
+            <!-- Social media links -->
+            <a href="https://www.linkedin.com/in/charles-magno-0a6a36178/" target="blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.youtube.com/@charlesmagno28/featured" target="blank" class="youtube"><i class="bi bi-youtube"></i></a>
+            <a href="https://www.facebook.com/charles.magno/" target="blank" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/centaur_montano/" target="blank" class="instagram"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll to top button -->
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+</footer>
+</body>
+</html>
