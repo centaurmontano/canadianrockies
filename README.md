@@ -6,9 +6,10 @@ Responsive for all devices, built using HTML, CSS, and JavaScript.
 Discover the captivating beauty of the Canadian Rockies in Alberta, Canada, through our meticulously crafted travel guide website. Our sleek and responsive design, developed with expertise in CSS and web development, ensures an immersive experience on any device. Utilizing Bootstrap 5, our website combines functionality with elegance to showcase the stunning landscapes of the Rockies.
 
 ## Technologies Used
-| <img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" alt="HTML Logo" width="50px"> | <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS Logo" width="50px"> | <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="JavaScript Logo" width="50px"> | <img src="https://getbootstrap.com/docs/5.0/assets/img/bootstrap-icons.png" alt="Bootstrap Logo" width="50px"> |
+| <img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" alt="HTML Logo" width="65px"> | <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS Logo" width="65px"> | <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="JavaScript Logo" width="65px"> | <img src="https://getbootstrap.com/docs/5.0/assets/img/bootstrap-icons.png" alt="Bootstrap Logo" width="65px"> |
 | --- | --- | --- | --- |
 | HTML | CSS | JavaScript | Bootstrap |
+
 
 
 ## Features
