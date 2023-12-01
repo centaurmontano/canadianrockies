@@ -1,26 +1,22 @@
 # Canadian Rockies Travel Guide
 
-## Overview
-
-Welcome to the Canadian Rockies Travel Guide, your go-to resource for exploring the breathtaking landscapes of the Canadian Rockies. This sleek and responsive website is a testament to my passion for CSS and web development. With a lightweight design and seamless Bootstrap 5 integration, it offers a visually stunning and user-friendly experience.
+Explore the breathtaking landscapes of the Canadian Rockies with our travel guide—a sleek and responsive website crafted with passion for CSS and web development. Immerse yourself in the beauty of the Rockies on any device, thanks to our fully responsive design integrated with Bootstrap 5.
 
 ## Technologies Used
-| <img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" alt="HTML Logo" width="50"> | <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS Logo" width="50"> | <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="JavaScript Logo" width="50"> | <img src="https://getbootstrap.com/docs/5.0/assets/img/bootstrap-icons.png" alt="Bootstrap Logo" width="50"> |
+| [![HTML Logo](https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png)](https://developer.mozilla.org/en-US/docs/Web/HTML) | [![CSS Logo](https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg)](https://developer.mozilla.org/en-US/docs/Web/CSS) | [![JavaScript Logo](https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) | [![Bootstrap Logo](https://getbootstrap.com/docs/5.0/assets/img/bootstrap-icons.png)](https://getbootstrap.com/) |
 | --- | --- | --- | --- |
 | HTML | CSS | JavaScript | Bootstrap |
 
-
-
 ## Features
 
-- **Responsive Design:** Experience the beauty of the Canadian Rockies on any device with a fully responsive design.
-- **Bootstrap 5 Integration:** Utilizing the latest Bootstrap framework for a modern and consistent UI.
-- **CSS Customization:** Easily customize the website's appearance through the variables.css file, showcasing the flexibility of design.
-- **Smooth Scroll Animations:** Enhance user engagement with smooth scroll animations, providing a seamless browsing experience.
-- **Clean Code:** The project boasts clean and well-organized code, ensuring maintainability and readability.
-- **Google Fonts:** Stylish typography using Google Fonts for a polished and professional look.
-- **Off-Canvas Mobile Menu:** Offering an intuitive off-canvas mobile menu for easy navigation on smaller screens.
-- **SEO Optimization:** Optimized for search engines, making the website easily discoverable by users.
+- **Responsive Design:** Immerse yourself in the Canadian Rockies seamlessly on any device with our fully responsive design.
+- **Bootstrap 5 Integration:** Experience a modern and consistent user interface powered by the latest Bootstrap framework.
+- **CSS Customization:** Easily tailor the website's appearance through the variables.css file, showcasing the flexibility of design.
+- **Smooth Scroll Animations:** Enhance user engagement with smooth scroll animations for a seamless browsing experience.
+- **Clean Code:** Explore the project's clean and well-organized code, ensuring maintainability and readability.
+- **Google Fonts:** Enjoy stylish typography using Google Fonts for a polished and professional look.
+- **Off-Canvas Mobile Menu:** Navigate intuitively on smaller screens with our off-canvas mobile menu.
+- **SEO Optimization:** Discover the Canadian Rockies Travel Guide easily, thanks to optimization for search engines.
 
 ## Installation
 
@@ -34,7 +30,9 @@ To explore the Canadian Rockies Travel Guide:
 
 2. Open the project in your preferred code editor.
 
-3. Launch the website by opening the `index.html` file in your web browser.
+3. Run `npm install` to install any necessary dependencies.
+
+4. Launch the website by opening the `index.html` file in your web browser.
 
 ## Usage
 
