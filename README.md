@@ -1,6 +1,9 @@
 # Canadian Rockies Travel Guide
 
-Explore the breathtaking landscapes of the Canadian Rockies with our travel guide—a sleek and responsive website crafted with passion for CSS and web development. Immerse yourself in the beauty of the Rockies on any device, thanks to our fully responsive design integrated with Bootstrap 5.
+Canadian Rockies Travel Guide is a fully responsive personal blog/Travel website,
+Responsive for all devices, built using HTML, CSS, and JavaScript.
+
+Discover the captivating beauty of the Canadian Rockies in Alberta, Canada, through our meticulously crafted travel guide website. Our sleek and responsive design, developed with expertise in CSS and web development, ensures an immersive experience on any device. Utilizing Bootstrap 5, our website combines functionality with elegance to showcase the stunning landscapes of the Rockies.
 
 ## Technologies Used
 | [![HTML Logo](https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png)](https://developer.mozilla.org/en-US/docs/Web/HTML) | [![CSS Logo](https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg)](https://developer.mozilla.org/en-US/docs/Web/CSS) | [![JavaScript Logo](https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) | [![Bootstrap Logo](https://getbootstrap.com/docs/5.0/assets/img/bootstrap-icons.png)](https://getbootstrap.com/) |
