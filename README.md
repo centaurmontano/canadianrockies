@@ -4,12 +4,9 @@
 
 Welcome to the Canadian Rockies Travel Guide, your go-to resource for exploring the breathtaking landscapes of the Canadian Rockies. This sleek and responsive website is a testament to my passion for CSS and web development. With a lightweight design and seamless Bootstrap 5 integration, it offers a visually stunning and user-friendly experience.
 
-<p align="left">
-  <img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" alt="HTML Logo" width="50">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS Logo" width="50">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="JavaScript Logo" width="50">
-  <img src="https://getbootstrap.com/docs/5.0/assets/img/bootstrap-icons.png" alt="Bootstrap Logo" width="50">
-</p>
+| ![HTML Logo](https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png) | ![CSS Logo](https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg) | ![JavaScript Logo](https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg) | ![Bootstrap Logo](https://getbootstrap.com/docs/5.0/assets/img/bootstrap-icons.png) |
+| --- | --- | --- | --- |
+| HTML | CSS | JavaScript | Bootstrap |
 
 
 ## Features
