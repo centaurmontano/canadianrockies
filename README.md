@@ -49,6 +49,8 @@ If you have suggestions for improvement or would like to contribute to the proje
 
 This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
 
+## Screenshots
+
 ## Acknowledgements
 
 Special thanks to Bootstrap for providing a robust framework and the web development community for continuous inspiration and support.
