@@ -45,12 +45,13 @@ Navigate through the stunning Canadian Rockies and discover hidden gems using th
 
 If you have suggestions for improvement or would like to contribute to the project, feel free to submit a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
-
 ## Screenshots
 
 ## Acknowledgements
 
 Special thanks to Bootstrap for providing a robust framework and the web development community for continuous inspiration and support.
+
+## License
+
+This project is licensed under the MIT License - see the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) file for details.
+Copyright (c) 2023 Charles Magno
